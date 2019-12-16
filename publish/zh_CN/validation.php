@@ -111,6 +111,18 @@ return [
         'string' => '当 :other 为 :value 时 :attribute 必须介于 :min - :max 个字符之间',
         'array' => '当 :other 为 :value 时 :attribute 必须只有 :min - :max 个单元',
     ],
+    'gt' => [
+        'numeric' => ':attribute 必须大于 :value。',
+        'file' => ':attribute 必须大于 :value KB。',
+        'string' => ':attribute 必须多于 :value 个字符。',
+        'array' => ':attribute 必须多于 :value 个元素。',
+    ],
+    'gte' => [
+        'numeric' => ':attribute 必须大于或等于 :value。',
+        'file' => ':attribute 必须大于或等于 :value KB。',
+        'string' => ':attribute 必须多于或等于 :value 个字符。',
+        'array' => ':attribute 必须多于或等于 :value 个元素。',
+    ],
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
